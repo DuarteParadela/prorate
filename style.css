@@ -101,6 +101,26 @@ header {
   box-shadow: 0 12px 40px rgba(0, 48, 212, 0.25);
 }
 
+/* Hero Buttons Container */
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
+
+/* App Store Button */
+.btn-appstore {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.btn-appstore:hover {
+  transform: translateY(-2px);
+}
+
 /* FAQ Section */
 .faq-section {
   padding: 60px 0;
